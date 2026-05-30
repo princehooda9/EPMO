@@ -1,0 +1,6 @@
+Model,MAE_mean,MAE_std,ConfigAcc_mean,Top3Acc_mean,Saving%_mean,Regret%_mean,PctOracle_mean
+XGBoost,0.25088,0.17667,0.5,0.667,22.6,20.66,1.5
+Gradient Boosting,0.26177,0.17527,0.583,0.667,21.1,23.19,80.8
+Random Forest,0.26341,0.15161,0.583,0.833,24.3,17.66,5.7
+Ridge Regression,0.26566,0.11962,0.75,0.833,25.7,14.72,8.5
+Decision Tree,0.27882,0.11738,0.25,0.583,2.2,99.0,49.3

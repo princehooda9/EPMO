@@ -1,0 +1,12 @@
+{
+  "cpu_logical": 8,
+  "cpu_physical": 4,
+  "ram_gb": 7.84,
+  "os": "Windows",
+  "python": "3.10.20",
+  "torch": "2.5.1+cu121",
+  "gpu_available": 1,
+  "gpu_name": "NVIDIA GeForce GTX 1650",
+  "gpu_vram_gb": 4.0,
+  "cuda_version": "12.1"
+}

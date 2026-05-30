@@ -1,0 +1,121 @@
+{
+  "recommended": {
+    "num_workers": 4,
+    "batch_size": 32,
+    "predicted_time": -0.1499
+  },
+  "default": {
+    "num_workers": 0,
+    "batch_size": 32,
+    "predicted_time": 0.1013
+  },
+  "all_configs": [
+    {
+      "num_workers": 0,
+      "batch_size": 32,
+      "predicted_time": 0.1013,
+      "rank": 5
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 64,
+      "predicted_time": 0.2309,
+      "rank": 8
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 128,
+      "predicted_time": 0.49,
+      "rank": 12
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 256,
+      "predicted_time": 1.0083,
+      "rank": 16
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 32,
+      "predicted_time": 0.0694,
+      "rank": 4
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 64,
+      "predicted_time": 0.199,
+      "rank": 7
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 128,
+      "predicted_time": 0.4581,
+      "rank": 11
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 256,
+      "predicted_time": 0.9765,
+      "rank": 15
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 32,
+      "predicted_time": 0.0032,
+      "rank": 3
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 64,
+      "predicted_time": 0.1328,
+      "rank": 6
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 128,
+      "predicted_time": 0.3919,
+      "rank": 10
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 256,
+      "predicted_time": 0.9102,
+      "rank": 14
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 32,
+      "predicted_time": -0.1499,
+      "rank": 1
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 64,
+      "predicted_time": -0.0203,
+      "rank": 2
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 128,
+      "predicted_time": 0.2388,
+      "rank": 9
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 256,
+      "predicted_time": 0.7571,
+      "rank": 13
+    }
+  ],
+  "environment": {
+    "gpu_available": 0,
+    "gpu_name": "none",
+    "cpu_logical": 12,
+    "cpu_physical": 6,
+    "ram_gb": 7.37,
+    "gpu_vram_gb": 0.0,
+    "os": "Windows"
+  },
+  "predicted_saving_pct": 247.98,
+  "pipeline": "reallife"
+}

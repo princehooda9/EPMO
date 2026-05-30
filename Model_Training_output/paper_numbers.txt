@@ -1,0 +1,71 @@
+=================================================================
+EPMO PAPER NUMBERS  v4.0
+=================================================================
+
+─────────────────────────────────────────────
+Model_A (CPU)
+─────────────────────────────────────────────
+  Best algorithm:  Ridge Regression
+  MAE:             0.2657 ± 0.1196s
+  ConfigAcc:       75%
+  Top-3 Acc:       83%
+  Avg Saving%:     +25.7%
+  Avg Regret%:     14.72%
+  PctOracle:       8.5%
+
+  Per-fold (Ridge Regression):
+    ✓ cpu_01     MAE=0.2151  Saving=+44.4%  Regret=0.00%  Oracle=100.0%
+    ✗ cpu_02     MAE=0.4737  Saving=-36.4%  Regret=36.42%  Oracle=100.0%
+    ✓ cpu_03     MAE=0.2217  Saving=+59.2%  Regret=0.00%  Oracle=100.0%
+    ✗ cpu_04     MAE=0.2032  Saving=-74.6%  Regret=88.64%  Oracle=-998.1%
+    ✓ cpu_05     MAE=0.2822  Saving=+34.0%  Regret=0.00%  Oracle=100.0%
+    ✗ cpu_06     MAE=0.2044  Saving=-51.6%  Regret=51.62%  Oracle=100.0%
+    ✓ cpu_07     MAE=0.4713  Saving=+41.5%  Regret=0.00%  Oracle=100.0%
+    ✓ cpu_08     MAE=0.2845  Saving=+56.9%  Regret=0.00%  Oracle=100.0%
+    ✓ cpu_09     MAE=0.1263  Saving=+43.7%  Regret=0.00%  Oracle=100.0%
+    ✓ cpu_10     MAE=0.3700  Saving=+84.6%  Regret=0.00%  Oracle=100.0%
+    ✓ cpu_11     MAE=0.0987  Saving=+51.8%  Regret=0.00%  Oracle=100.0%
+    ✓ cpu_12     MAE=0.2368  Saving=+55.4%  Regret=0.00%  Oracle=100.0%
+
+  Top features (Random Forest):
+    batch_x_ram            0.2940
+    batch_size             0.2791
+    ram_gb                 0.1751
+    workers_x_cpu          0.1134
+    cpu_per_worker         0.0713
+
+─────────────────────────────────────────────
+Model_B (GPU)
+─────────────────────────────────────────────
+  Best algorithm:  Random Forest
+  MAE:             0.1111 ± 0.0884s
+  ConfigAcc:       88%
+  Top-3 Acc:       100%
+  Avg Saving%:     +41.4%
+  Avg Regret%:     5.70%
+  PctOracle:       94.9%
+
+  Per-fold (Random Forest):
+    ✓ gpu_01     MAE=0.0409  Saving=+48.0%  Regret=0.00%  Oracle=100.0%
+    ✓ gpu_02     MAE=0.1643  Saving=+0.0%  Regret=0.00%  Oracle=100.0%
+    ✓ gpu_03     MAE=0.0456  Saving=+70.4%  Regret=0.00%  Oracle=100.0%
+    ✓ gpu_04     MAE=0.0467  Saving=+26.0%  Regret=0.00%  Oracle=100.0%
+    ✓ gpu_05     MAE=0.2036  Saving=+51.7%  Regret=0.00%  Oracle=100.0%
+    ✗ gpu_06     MAE=0.0692  Saving=+31.2%  Regret=45.58%  Oracle=59.1%
+    ✓ gpu_07     MAE=0.0508  Saving=+53.5%  Regret=0.00%  Oracle=100.0%
+    ✓ gpu_08     MAE=0.2679  Saving=+50.7%  Regret=0.00%  Oracle=100.0%
+
+  Top features (Random Forest):
+    batch_x_ram            0.5686
+    workers_x_cpu          0.2180
+    cpu_per_worker         0.0452
+    cpu_logical            0.0426
+    batch_size             0.0357
+
+=================================================================
+REGRET INTERPRETATION:
+  Regret < 2%  → Excellent (EPMO ≈ Oracle)
+  Regret < 5%  → Success threshold
+  Regret 5-15% → Acceptable
+  Regret > 15% → Poor prediction
+=================================================================

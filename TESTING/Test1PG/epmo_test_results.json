@@ -1,0 +1,114 @@
+{
+  "epmo": {
+    "num_workers": 4,
+    "batch_size": 32,
+    "load_time_median": 0.0586,
+    "predicted_time": 0.0893
+  },
+  "oracle": {
+    "num_workers": 4,
+    "batch_size": 32,
+    "load_time_median": 0.0586
+  },
+  "default": {
+    "num_workers": 0,
+    "batch_size": 32,
+    "load_time_median": 0.1464
+  },
+  "metrics": {
+    "saving_pct": 59.97,
+    "oracle_saving_pct": 59.97,
+    "regret_pct": 0.0,
+    "pct_oracle": 100.0,
+    "config_hit": 1
+  },
+  "environment": {
+    "gpu_available": 1,
+    "cpu_logical": 8,
+    "ram_gb": 7.84,
+    "gpu_vram_gb": 4.0
+  },
+  "all_configs": [
+    {
+      "num_workers": 0,
+      "batch_size": 32,
+      "load_time_median": 0.1464
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 64,
+      "load_time_median": 0.2689
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 128,
+      "load_time_median": 0.5509
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 256,
+      "load_time_median": 1.0883
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 32,
+      "load_time_median": 0.1549
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 64,
+      "load_time_median": 0.2575
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 128,
+      "load_time_median": 0.4915
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 256,
+      "load_time_median": 0.958
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 32,
+      "load_time_median": 0.0796
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 64,
+      "load_time_median": 0.1447
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 128,
+      "load_time_median": 0.2775
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 256,
+      "load_time_median": 0.5423
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 32,
+      "load_time_median": 0.0586
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 64,
+      "load_time_median": 0.1041
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 128,
+      "load_time_median": 0.1897
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 256,
+      "load_time_median": 0.3577
+    }
+  ],
+  "env_id": "test1pg"
+}

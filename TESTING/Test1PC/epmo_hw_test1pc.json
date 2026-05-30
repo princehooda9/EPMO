@@ -1,0 +1,12 @@
+{
+  "cpu_logical": 12,
+  "cpu_physical": 6,
+  "ram_gb": 7.37,
+  "os": "Windows",
+  "python": "3.11.14",
+  "torch": "2.10.0+cpu",
+  "gpu_available": 0,
+  "gpu_name": "none",
+  "gpu_vram_gb": 0.0,
+  "cuda_version": "none"
+}

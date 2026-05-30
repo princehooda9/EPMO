@@ -1,0 +1,43 @@
+|--- batch_size <= 192.00
+|   |--- batch_size <= 96.00
+|   |   |--- workers_x_cpu <= 20.00
+|   |   |   |--- batch_size <= 48.00
+|   |   |   |   |--- value: [0.16]
+|   |   |   |--- batch_size >  48.00
+|   |   |   |   |--- value: [0.28]
+|   |   |--- workers_x_cpu >  20.00
+|   |   |   |--- ram_gb <= 19.71
+|   |   |   |   |--- value: [0.10]
+|   |   |   |--- ram_gb >  19.71
+|   |   |   |   |--- value: [0.28]
+|   |--- batch_size >  96.00
+|   |   |--- workers_x_cpu <= 20.00
+|   |   |   |--- cpu_logical <= 10.00
+|   |   |   |   |--- value: [0.71]
+|   |   |   |--- cpu_logical >  10.00
+|   |   |   |   |--- value: [0.43]
+|   |   |--- workers_x_cpu >  20.00
+|   |   |   |--- batch_x_ram <= 6.77
+|   |   |   |   |--- value: [0.66]
+|   |   |   |--- batch_x_ram >  6.77
+|   |   |   |   |--- value: [0.27]
+|--- batch_size >  192.00
+|   |--- ram_gb <= 19.71
+|   |   |--- workers_x_cpu <= 14.00
+|   |   |   |--- batch_x_ram <= 18.43
+|   |   |   |   |--- value: [0.75]
+|   |   |   |--- batch_x_ram >  18.43
+|   |   |   |   |--- value: [1.26]
+|   |   |--- workers_x_cpu >  14.00
+|   |   |   |--- batch_x_ram <= 16.31
+|   |   |   |   |--- value: [0.27]
+|   |   |   |--- batch_x_ram >  16.31
+|   |   |   |   |--- value: [0.65]
+|   |--- ram_gb >  19.71
+|   |   |--- num_workers <= 0.50
+|   |   |   |--- value: [1.30]
+|   |   |--- num_workers >  0.50
+|   |   |   |--- cpu_per_worker <= 3.33
+|   |   |   |   |--- value: [1.71]
+|   |   |   |--- cpu_per_worker >  3.33
+|   |   |   |   |--- value: [3.24]

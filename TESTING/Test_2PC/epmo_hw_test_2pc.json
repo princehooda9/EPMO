@@ -1,0 +1,12 @@
+{
+  "cpu_logical": 24,
+  "cpu_physical": 16,
+  "ram_gb": 15.29,
+  "os": "Linux",
+  "python": "3.10.12",
+  "torch": "2.11.0+cu130",
+  "gpu_available": 0,
+  "gpu_name": "none",
+  "gpu_vram_gb": 0.0,
+  "cuda_version": "none"
+}

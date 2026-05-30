@@ -1,0 +1,114 @@
+{
+  "epmo": {
+    "num_workers": 4,
+    "batch_size": 32,
+    "load_time_median": 0.0308,
+    "predicted_time": -0.4744
+  },
+  "oracle": {
+    "num_workers": 4,
+    "batch_size": 32,
+    "load_time_median": 0.0308
+  },
+  "default": {
+    "num_workers": 0,
+    "batch_size": 32,
+    "load_time_median": 0.0323
+  },
+  "metrics": {
+    "saving_pct": 4.64,
+    "oracle_saving_pct": 4.64,
+    "regret_pct": 0.0,
+    "pct_oracle": 100.0,
+    "config_hit": 1
+  },
+  "environment": {
+    "gpu_available": 0,
+    "cpu_logical": 24,
+    "ram_gb": 15.29,
+    "gpu_vram_gb": 0.0
+  },
+  "all_configs": [
+    {
+      "num_workers": 0,
+      "batch_size": 32,
+      "load_time_median": 0.0323
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 64,
+      "load_time_median": 0.0628
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 128,
+      "load_time_median": 0.1235
+    },
+    {
+      "num_workers": 0,
+      "batch_size": 256,
+      "load_time_median": 0.2432
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 32,
+      "load_time_median": 0.0552
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 64,
+      "load_time_median": 0.0953
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 128,
+      "load_time_median": 0.1717
+    },
+    {
+      "num_workers": 1,
+      "batch_size": 256,
+      "load_time_median": 0.3259
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 32,
+      "load_time_median": 0.0346
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 64,
+      "load_time_median": 0.0552
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 128,
+      "load_time_median": 0.0955
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 256,
+      "load_time_median": 0.1819
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 32,
+      "load_time_median": 0.0308
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 64,
+      "load_time_median": 0.0457
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 128,
+      "load_time_median": 0.0609
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 256,
+      "load_time_median": 0.1123
+    }
+  ],
+  "env_id": "test_1pc"
+}
